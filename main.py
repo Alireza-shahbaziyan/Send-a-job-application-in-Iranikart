@@ -16,8 +16,8 @@ def fill_form(url, file_path):
     # Load the webpage
     driver.get(url)
     driver.find_element(By.NAME,"your-name").send_keys('علیرضا شهبازیان')
-    driver.find_element(By.NAME,"your-email").send_keys('alishahbazi0831@gmail.com')
-    driver.find_element(By.NAME,"your-phone").send_keys('09392622300')
+    driver.find_element(By.NAME,"your-email").send_keys('Email@gmail.com')
+    driver.find_element(By.NAME,"your-phone").send_keys('98-phoneNumber')
     driver.find_element(By.NAME,"your-position").send_keys('Front-end(Vue.js)')
 
     fileCV = driver.find_element(By.CSS_SELECTOR,".wpcf7-form-control-wrap > .wpcf7-file")
