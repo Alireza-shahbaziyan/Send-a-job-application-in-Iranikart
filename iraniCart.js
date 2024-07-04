@@ -11,8 +11,8 @@ async function fillForm(url, fileToUpload) {
     try {
         await driver.get(url);
         await driver.findElement(By.name("your-name")).sendKeys('علیرضا شهبازیان');
-        await driver.findElement(By.name("your-email")).sendKeys('alishahbazi0831@gmail.com');
-        await driver.findElement(By.name("your-phone")).sendKeys('09392622300');
+        await driver.findElement(By.name("your-email")).sendKeys('alishah****@gmail.com');
+        await driver.findElement(By.name("your-phone")).sendKeys('0939268****');
         await driver.findElement(By.name("your-position")).sendKeys('Front-end(Vue.js)');
 
         let fileInput = await driver.findElement(By.css(".wpcf7-form-control-wrap > .wpcf7-file"));
